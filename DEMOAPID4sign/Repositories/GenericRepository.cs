@@ -21,8 +21,8 @@ namespace DEMOAPID4sign.Repositories
 
         public GenericRepository()
         {
-            this.tokenAPI = "live_07c4206203ceb944918077d7b9d588031a9377b5a3398dc835d12f61d5357c9a";
-            this.cryptKey = "live_crypt_ieY1WkjRhXyz0C5JYnWTYOH9lqQTbACG";
+            this.tokenAPI = "yourTokenAPI";
+            this.cryptKey = "yourCryptKey";
         }
 
         public string GetTokenAPI()
@@ -71,12 +71,12 @@ namespace DEMOAPID4sign.Repositories
 
         #region Send/ Download File
 
-        public UploadedFile UploadFile(string nameFile, string pathFile, string uuidCofre, string type, string uuidFolder = "")
+        public UploadedFile UploadFile(string nameFile, string pathFile, string uuidSafe, string type, string uuidFolder = "")
         {
             try
             {
                 UploadedFile uploadedFile = new UploadedFile();
-                string url = $"http://demo.d4sign.com.br/api/v1/documents/{uuidCofre}/upload?tokenAPI={this.tokenAPI}&cryptKey={this.cryptKey}";
+                string url = $"http://demo.d4sign.com.br/api/v1/documents/{uuidSafe}/upload?tokenAPI={this.tokenAPI}&cryptKey={this.cryptKey}";
                 var client = new RestClient(url);
                 var request = new RestRequest(Method.POST);
 
