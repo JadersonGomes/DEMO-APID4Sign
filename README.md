@@ -23,8 +23,8 @@
   </li>
   
   <li>
-    <p>Now, you need to install all project's dependency. So, you will install RestSharp to make requests and before you go install NewtonSoft.NET to treat all your responses on          Json format. </br>
-       You can install those dependencys through of console nuget package manager with those commands:
+    <p>Now, you need to install all project's dependency. So, you will install RestSharp to make requests and before you go install NewtonSoft.NET to treat all your responses on          Json format. </br></br>
+       You can install those dependencys through console nuget package manager with those commands:
        <ul>
           <li>Install-Package RestSharp -Version 106.11.4</li>
           <li>Install-Package Newtonsoft.Json -Version 12.0.3</li>
@@ -32,4 +32,14 @@
     </p>
   </li>
   
+   <li>
+    <p>Before doing all last steps, you can create a GenericRepository instance and choose what method you want to use. All of methods returns a object and you can do anything          with this.</p>
+  </li>
+  
+  
 </ul>
+
+</br></br></br>
+  
+<i  style="font-size:10px;">If you need some help, you can contact me on my email: jaderson_goomes@hotmail.com</i>
+  
