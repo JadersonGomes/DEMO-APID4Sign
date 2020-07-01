@@ -8,7 +8,12 @@
 
 <ul>
   <li>
-    <p>First, you need to look at documention about how start to use D4Sign API on his website. You can do this access this link: http://docapi.d4sign.com.br/</p>
+    <p>First, you need to look at documention about how start to use D4Sign API on his website. You can do this accessing this link: http://docapi.d4sign.com.br</p>
+  </li>
+  
+  
+  <li>
+    <p>After this, you need to create a demo account on his website to generate your tokenAPI and cryptKey. You can do it accessing this link: http://demo.d4sign.com.br/login</p>
   </li>
   
 </ul>
