@@ -10,12 +10,12 @@
 
 <ul>
   <li>
-    <p>First, you need to look at documention about how start to use D4Sign API on his website. You can do this accessing this link: http://docapi.d4sign.com.br</p>
+    <p>First, you need to look at documention about how start to use D4Sign API on them website. You can do this accessing this link: http://docapi.d4sign.com.br</p>
   </li>
   
   
   <li>
-    <p>After this, you need to create a demo account on his website to generate your tokenAPI and cryptKey. You can do it accessing this link: http://demo.d4sign.com.br/login</p>
+    <p>Before this, you need to create a demo account on them website to generate your tokenAPI and cryptKey. You can do it accessing this link: http://demo.d4sign.com.br/login</p>
   </li>
   
   <li>
@@ -23,8 +23,8 @@
   </li>
   
   <li>
-    <p>Now, you need to install all project's dependency. So, you will install RestSharp to make requests and before you go install NewtonSoft.NET to treat all your responses on          Json format. </br></br>
-       You can install those dependencys through console nuget package manager with those commands:
+    <p>Now, you need to install all project's dependency. So, you will install RestSharp to make requests and after you go install NewtonSoft.NET to treat all your responses on          Json format. </br></br>
+       You can install those dependencys through Console NuGet Package Manager with those commands:
        <ul>
           <li>Install-Package RestSharp -Version 106.11.4</li>
           <li>Install-Package Newtonsoft.Json -Version 12.0.3</li>
@@ -33,7 +33,7 @@
   </li>
   
    <li>
-    <p>Before doing all last steps, you can create a GenericRepository instance and choose what method you want to use. All of methods returns a object and you can do anything          with this.</p>
+    <p>After doing all last steps, you can create a GenericRepository instance and choose what method you want to use. All of methods returns a object and you can do anything          with this.</p>
   </li>
   
   
