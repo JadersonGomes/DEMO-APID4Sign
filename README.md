@@ -39,7 +39,7 @@
   
 </ul>
 
-</br></br></br>
+</br>
   
-<i  style="font-size:10px;">If you need some help, you can contact me on my email: jaderson_goomes@hotmail.com</i>
+<i  style="font-size:7px;">If you need some help, you can contact me on my email: jaderson_goomes@hotmail.com</i>
   
