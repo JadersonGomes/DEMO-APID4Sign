@@ -4,7 +4,7 @@
 
 <p>This is a test using and integrating them Web API to do requests and receive responses about the sign proccess. For this, I use C#, RestSharp to make requests and NewtonSoft to treat Json file. <p/>
 
-<p>The objective of this project is clarify the integration with API's that can be used to accomplish and send documents for eletronic signature. The objective isn't explain how this API works.</P>
+<p>The objective of this project is clarify the integration with API's that can be used to accomplish and send documents for electronic signature. The objective isn't explain how this API works.</P>
 
 <h3>How to start?</h3>
 
