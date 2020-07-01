@@ -19,7 +19,17 @@
   </li>
   
   <li>
-    <p>With your tokenAPI and cryptKey, entry in GenericRepository class and insert it in the constructor of the class. </p>
+    <p>With your tokenAPI and cryptKey, enter in GenericRepository class and insert the tokenAPI and cryptKey in the constructor of the class. </p>
+  </li>
+  
+  <li>
+    <p>Now, you need to install all project's dependency. So, you will install RestSharp to make requests and before you go install NewtonSoft.NET to treat all your responses on          Json format. </br>
+       You can install those dependencys through of console nuget package manager with those commands:
+       <ul>
+          <li>Install-Package RestSharp -Version 106.11.4</li>
+          <li>Install-Package Newtonsoft.Json -Version 12.0.3</li>
+       </ul>
+    </p>
   </li>
   
 </ul>
